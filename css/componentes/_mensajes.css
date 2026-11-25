@@ -1,0 +1,26 @@
+.mensajes {
+  position: fixed;
+  z-index: 1000;
+  right: var(--espaciado-medio);
+  bottom: var(--espaciado-medio);
+  display: grid;
+  gap: var(--espaciado-pequeno);
+  width: min(360px, calc(100vw - 32px));
+}
+
+.mensaje {
+  padding: var(--espaciado-medio);
+  border-radius: var(--radio-borde);
+  color: var(--color-blanco);
+  box-shadow: var(--sombra-suave);
+  animation: aparecer 180ms ease-out;
+}
+
+.mensaje--exito { background-color: var(--color-exito); }
+.mensaje--error { background-color: var(--color-error); }
+.mensaje--info { background-color: var(--color-primario); }
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Crea tu cuenta para pedir postres artesanales DelySweet.">
+  <title>DelySweet | Crear cuenta</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="registro">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion seccion--estrecha" aria-labelledby="registro-title">
+      <p class="seccion__eyebrow">Únete a nuestra mesa</p>
+      <h1 id="registro-title" class="seccion__title">Crear cuenta</h1>
+      <form id="form-registro" class="formulario">
+        <fieldset class="formulario__fieldset">
+          <legend class="formulario__legend">Tus datos</legend>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="nombre">Nombre completo</label>
+            <input class="formulario__input" id="nombre" name="nombre" type="text" required autocomplete="name">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="direccion">Dirección</label>
+            <input class="formulario__input" id="direccion" name="direccion" type="text" required autocomplete="street-address">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="telefono">Teléfono</label>
+            <input class="formulario__input" id="telefono" name="telefono" type="tel" required autocomplete="tel">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="correo">Correo electrónico</label>
+            <input class="formulario__input" id="correo" name="correo" type="email" required autocomplete="email">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="password">Contraseña (mínimo 8 caracteres)</label>
+            <input class="formulario__input" id="password" name="password" type="password" required minlength="8" autocomplete="new-password">
+          </div>
+          <button class="btn btn--primario" type="submit">Crear cuenta</button>
+        </fieldset>
+      </form>
+      <p class="formulario__ayuda">¿Ya tienes cuenta? <a class="enlace-texto" href="login.html">Inicia sesión</a>.</p>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

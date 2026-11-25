@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consulta el historial de tus pedidos DelySweet.">
+  <title>DelySweet | Mis pedidos</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="historial">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion" aria-labelledby="historial-title">
+      <p class="seccion__eyebrow">Tus momentos DelySweet</p>
+      <h1 id="historial-title" class="seccion__title">Historial de pedidos</h1>
+      <div class="filtro-fecha">
+        <label class="formulario__label" for="historial-fecha">Filtrar por fecha</label>
+        <input class="formulario__input" id="historial-fecha" type="date">
+      </div>
+      <div id="pedidos-lista" class="pedidos-lista" aria-live="polite"></div>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

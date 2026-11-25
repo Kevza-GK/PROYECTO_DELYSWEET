@@ -1,0 +1,13 @@
+<template id="tpl-cart-item">
+  <article class="carrito__item">
+    <div class="carrito__item-detalle">
+      <h2 class="carrito__item-title"></h2>
+      <p class="carrito__item-precio"></p>
+    </div>
+    <label class="formulario__label">
+      Cantidad
+      <input class="formulario__input carrito__cantidad" type="number" min="0" data-action="cambiar-cantidad">
+    </label>
+    <button class="btn btn--secundario" type="button" data-action="quitar-item">Quitar</button>
+  </article>
+</template>

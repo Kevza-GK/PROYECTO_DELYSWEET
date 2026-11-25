@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Inicia sesión en tu cuenta DelySweet.">
+  <title>DelySweet | Iniciar sesión</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="login">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion seccion--estrecha" aria-labelledby="login-title">
+      <p class="seccion__eyebrow">Qué bueno verte</p>
+      <h1 id="login-title" class="seccion__title">Iniciar sesión</h1>
+      <form id="form-login" class="formulario">
+        <fieldset class="formulario__fieldset">
+          <legend class="formulario__legend">Ingresa a tu cuenta</legend>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="login-correo">Correo electrónico</label>
+            <input class="formulario__input" id="login-correo" name="correo" type="email" required autocomplete="email">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="login-password">Contraseña</label>
+            <input class="formulario__input" id="login-password" name="password" type="password" required autocomplete="current-password">
+          </div>
+          <button class="btn btn--primario" type="submit">Ingresar</button>
+        </fieldset>
+      </form>
+      <p class="formulario__ayuda">¿Aún no tienes cuenta? <a class="enlace-texto" href="registro.html">Regístrate</a>.</p>
+      <p class="formulario__ayuda">Acceso de demostración admin: admin@delysweet.com · DelySweet2026</p>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

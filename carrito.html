@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Revisa y actualiza tu carrito DelySweet.">
+  <title>DelySweet | Carrito</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="carrito">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion" aria-labelledby="carrito-title">
+      <p class="seccion__eyebrow">Un paso más cerca de disfrutar</p>
+      <h1 id="carrito-title" class="seccion__title">Tu carrito</h1>
+      <div class="carrito-layout">
+        <div id="carrito-lista" class="carrito" aria-live="polite"></div>
+        <aside class="carrito__resumen" aria-labelledby="resumen-title">
+          <h2 id="resumen-title" class="carrito__resumen-title">Resumen de compra</h2>
+          <p class="carrito__linea"><span>Subtotal</span><span id="carrito-subtotal">$0</span></p>
+          <p class="carrito__linea"><span>Descuento</span><span id="carrito-descuento">$0</span></p>
+          <p class="carrito__linea carrito__linea--total"><span>Total</span><span id="carrito-total">$0</span></p>
+          <a id="carrito-checkout" class="btn btn--primario btn--ancho" href="checkout.html">Continuar al pago</a>
+          <a class="enlace-texto carrito__seguir" href="catalogo.html">Seguir comprando</a>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

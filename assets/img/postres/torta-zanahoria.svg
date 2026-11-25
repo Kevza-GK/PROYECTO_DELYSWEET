@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title">
+  <title id="title">Torta de zanahoria</title>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#ffe9d7"/><stop offset="1" stop-color="#f4cba9"/></linearGradient></defs>
+  <rect width="640" height="440" fill="url(#bg)"/>
+  <ellipse cx="320" cy="344" rx="194" ry="39" fill="#fff8f0"/>
+  <path d="M175 180h290v144H175z" fill="#be743c"/>
+  <path d="M175 226h290v42H175z" fill="#f7e6c6"/>
+  <path d="M175 166c10-35 28-9 42-30 15-22 26 9 42-15 17-25 34 8 50-14 17-25 34 10 51-12 17-23 35 13 52-5 18-20 34 17 53 7v44H175z" fill="#fff9ee"/>
+  <path d="M198 293h245l-14 31H213z" fill="#8a4b2d"/>
+  <g fill="#e98732"><path d="m256 150 10-35 8 3-10 35z"/><path d="m315 139 18-33 7 4-18 33z"/><path d="m379 140 4-38 8 1-4 38z"/></g>
+  <g fill="#4a8d52"><path d="m263 119-13-13 3-4 17 11z"/><path d="m335 108-3-18 5-1 6 18z"/><path d="m386 102 13-15 4 4-12 17z"/></g>
+  <circle cx="150" cy="115" r="9" fill="#fff" opacity=".7"/><circle cx="493" cy="216" r="8" fill="#fff" opacity=".7"/>
+</svg>

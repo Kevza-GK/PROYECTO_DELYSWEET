@@ -1,0 +1,23 @@
+.admin__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.8fr);
+  align-items: start;
+  gap: var(--espaciado-grande);
+}
+
+.admin__lateral { display: grid; gap: var(--espaciado-medio); }
+.admin__campos-dobles { display: grid; grid-template-columns: 1fr 1fr; gap: var(--espaciado-pequeno); }
+.panel { min-width: 0; }
+.panel__title { margin-bottom: var(--espaciado-medio); font-size: 1.2rem; }
+.panel--pedidos { margin-top: var(--espaciado-grande); }
+.lista-simple { display: grid; gap: var(--espaciado-pequeno); margin-top: var(--espaciado-medio); padding-left: var(--espaciado-medio); }
+.estado-acceso { display: grid; justify-items: start; gap: var(--espaciado-medio); }
+
+@media (max-width: 760px) {
+  .admin__grid { grid-template-columns: 1fr; }
+  .admin__lateral { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .admin__campos-dobles { grid-template-columns: 1fr; }
+}

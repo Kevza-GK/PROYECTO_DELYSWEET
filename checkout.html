@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Finaliza tu pedido de postres DelySweet.">
+  <title>DelySweet | Finalizar pedido</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="checkout">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion seccion--estrecha" aria-labelledby="checkout-title">
+      <p class="seccion__eyebrow">Entrega y pago</p>
+      <h1 id="checkout-title" class="seccion__title">Finalizar pedido</h1>
+      <p class="seccion__texto">Pagas cuando recibas tus postres, en efectivo o con tarjeta.</p>
+      <form id="form-checkout" class="formulario">
+        <fieldset class="formulario__fieldset">
+          <legend class="formulario__legend">Datos de entrega</legend>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="checkout-direccion">Dirección</label>
+            <input class="formulario__input" id="checkout-direccion" name="direccion" type="text" required autocomplete="street-address">
+          </div>
+          <div class="formulario__grupo">
+            <label class="formulario__label" for="checkout-telefono">Teléfono</label>
+            <input class="formulario__input" id="checkout-telefono" name="telefono" type="tel" required autocomplete="tel">
+          </div>
+        </fieldset>
+        <fieldset class="formulario__fieldset">
+          <legend class="formulario__legend">Método de pago contra entrega</legend>
+          <div class="formulario__grupo formulario__grupo--radio">
+            <input id="pago-efectivo" name="metodoPago" type="radio" value="efectivo" required>
+            <label class="formulario__label" for="pago-efectivo">Efectivo</label>
+          </div>
+          <div class="formulario__grupo formulario__grupo--radio">
+            <input id="pago-tarjeta" name="metodoPago" type="radio" value="tarjeta" required>
+            <label class="formulario__label" for="pago-tarjeta">Tarjeta</label>
+          </div>
+        </fieldset>
+        <button class="btn btn--primario" type="submit">Confirmar pedido</button>
+      </form>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

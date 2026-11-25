@@ -1,0 +1,19 @@
+.producto {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+  align-items: center;
+  gap: clamp(24px, 6vw, 72px);
+  max-width: 920px;
+  margin: var(--espaciado-grande) auto;
+  padding: var(--espaciado-grande);
+  border-radius: 20px;
+  background: var(--color-blanco);
+  box-shadow: var(--sombra-suave);
+}
+
+.producto__imagen { width: 100%; max-height: 460px; border-radius: 16px; object-fit: cover; }
+.producto__contenido { display: grid; justify-items: start; gap: var(--espaciado-medio); }
+.producto__precio { font-size: 1.6rem; }
+.producto__contenido .formulario__input { max-width: 120px; }
+.miga { display: flex; gap: var(--espaciado-pequeno); color: #705d5f; }
+.miga a { color: var(--color-primario); font-weight: 700; }

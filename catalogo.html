@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explora el catálogo de postres artesanales DelySweet.">
+  <title>DelySweet | Catálogo</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="catalogo">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <section class="seccion" aria-labelledby="catalogo-title">
+      <p class="seccion__eyebrow">Recién hechos para ti</p>
+      <h1 id="catalogo-title" class="seccion__title">Nuestro catálogo</h1>
+      <p class="seccion__texto">Elige tus favoritos y disfruta algo delicioso hoy.</p>
+      <div id="catalogo-productos" class="cards-grid" aria-live="polite"></div>
+    </section>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Panel de gestión administrativa DelySweet.">
+  <title>DelySweet | Administración</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body data-page="admin">
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+  <div data-view="header"></div>
+  <main id="contenido" class="main-wrapper">
+    <div id="admin-contenido">
+      <section class="seccion" aria-labelledby="admin-title">
+        <p class="seccion__eyebrow">Gestión de la tienda</p>
+        <h1 id="admin-title" class="seccion__title">Panel administrativo</h1>
+        <div class="admin__grid">
+          <section class="panel" aria-labelledby="productos-admin-title">
+            <h2 id="productos-admin-title" class="panel__title">Productos e inventario</h2>
+            <form id="form-producto" class="formulario formulario--compacto">
+              <input name="nombre" class="formulario__input" type="text" placeholder="Nombre del postre" aria-label="Nombre del postre" required>
+              <input name="descripcion" class="formulario__input" type="text" placeholder="Descripción" aria-label="Descripción" required>
+              <input name="categoria" class="formulario__input" type="text" placeholder="Categoría" aria-label="Categoría" required>
+              <div class="admin__campos-dobles">
+                <input name="precio" class="formulario__input" type="number" min="1" step="1" placeholder="Precio COP" aria-label="Precio en pesos colombianos" required>
+                <input name="stock" class="formulario__input" type="number" min="0" step="1" placeholder="Stock" aria-label="Unidades en inventario" required>
+              </div>
+              <label class="formulario__label" for="producto-imagen">Imagen (opcional, máximo 200 KB)</label>
+              <input id="producto-imagen" class="formulario__input" type="file" accept="image/*">
+              <button id="producto-guardar" class="btn btn--primario" type="submit">Agregar producto</button>
+            </form>
+            <div class="tabla-wrapper">
+              <table class="tabla">
+                <thead><tr><th class="tabla__th" scope="col">Producto</th><th class="tabla__th" scope="col">Precio</th><th class="tabla__th" scope="col">Stock</th><th class="tabla__th" scope="col">Acciones</th></tr></thead>
+                <tbody id="admin-productos"></tbody>
+              </table>
+            </div>
+          </section>
+          <aside class="admin__lateral">
+            <section class="panel" aria-labelledby="promociones-title">
+              <h2 id="promociones-title" class="panel__title">Nueva promoción</h2>
+              <form id="form-promocion" class="formulario formulario--compacto">
+                <label class="formulario__label" for="promo-nombre">Nombre</label>
+                <input id="promo-nombre" class="formulario__input" name="nombre" type="text" required>
+                <label class="formulario__label" for="promo-descuento">Descuento (%)</label>
+                <input id="promo-descuento" class="formulario__input" name="porcentaje" type="number" min="1" max="100" required>
+                <label class="formulario__label" for="promo-inicio">Desde</label>
+                <input id="promo-inicio" class="formulario__input" name="fechaInicio" type="date" required>
+                <label class="formulario__label" for="promo-fin">Hasta</label>
+                <input id="promo-fin" class="formulario__input" name="fechaFin" type="date" required>
+                <button class="btn btn--secundario" type="submit">Guardar promoción</button>
+              </form>
+              <ul id="admin-promociones" class="lista-simple"></ul>
+            </section>
+            <section class="panel" aria-labelledby="alertas-title">
+              <h2 id="alertas-title" class="panel__title">Alertas de inventario</h2>
+              <ul id="admin-alertas" class="lista-simple"></ul>
+            </section>
+            <section class="panel" aria-labelledby="ranking-title">
+              <h2 id="ranking-title" class="panel__title">Más vendidos</h2>
+              <ol id="admin-ranking" class="lista-simple"></ol>
+            </section>
+          </aside>
+        </div>
+        <section class="panel panel--pedidos" aria-labelledby="pedidos-admin-title">
+          <h2 id="pedidos-admin-title" class="panel__title">Pedidos</h2>
+          <div class="tabla-wrapper">
+            <table class="tabla">
+              <thead><tr><th class="tabla__th" scope="col">Pedido</th><th class="tabla__th" scope="col">Cliente</th><th class="tabla__th" scope="col">Fecha</th><th class="tabla__th" scope="col">Estado</th><th class="tabla__th" scope="col">Total</th><th class="tabla__th" scope="col">Acciones</th></tr></thead>
+              <tbody id="admin-pedidos"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </div>
+  </main>
+  <div data-view="footer"></div>
+  <div id="mensajes" class="mensajes" aria-live="assertive" aria-atomic="true"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

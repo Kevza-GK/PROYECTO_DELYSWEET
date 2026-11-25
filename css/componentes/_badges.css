@@ -1,0 +1,13 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.badge--disponible { color: var(--color-exito); background-color: rgba(46, 125, 50, 0.12); }
+.badge--agotado { color: var(--color-error); background-color: rgba(198, 40, 40, 0.12); }
+.badge--pendiente { color: var(--color-alerta); background-color: rgba(239, 108, 0, 0.12); }

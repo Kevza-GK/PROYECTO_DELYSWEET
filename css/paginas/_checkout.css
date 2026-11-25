@@ -1,0 +1,16 @@
+.pedidos-lista { display: grid; gap: var(--espaciado-medio); margin-block: var(--espaciado-grande); }
+
+.pedido-card,
+.panel {
+  padding: var(--espaciado-grande);
+  border-radius: var(--radio-borde);
+  background: var(--color-blanco);
+  box-shadow: var(--sombra-suave);
+}
+
+.pedido-card { display: grid; justify-items: start; gap: var(--espaciado-pequeno); }
+.pedido-card__title { font-size: 1.2rem; overflow-wrap: anywhere; }
+.pedido-card__total { font-weight: 800; }
+.pedido-card__items { padding-left: var(--espaciado-medio); }
+.pedido-card .formulario__input { max-width: 260px; margin-top: var(--espaciado-pequeno); }
+.filtro-fecha { display: grid; max-width: 320px; gap: var(--espaciado-pequeno); }

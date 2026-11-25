@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title">
+  <title id="title">Alfajores artesanales</title>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#fbe8d5"/><stop offset="1" stop-color="#edc0a3"/></linearGradient></defs>
+  <rect width="640" height="440" fill="url(#bg)"/>
+  <ellipse cx="320" cy="340" rx="200" ry="39" fill="#fff8f0"/>
+  <g transform="rotate(-12 276 220)">
+    <ellipse cx="265" cy="253" rx="117" ry="72" fill="#ba7846"/>
+    <ellipse cx="265" cy="236" rx="117" ry="72" fill="#e9b879"/>
+    <ellipse cx="265" cy="220" rx="117" ry="72" fill="#f4d39d"/>
+    <path d="M158 230c25 15 47 16 72 5 25-11 45-12 69-2 23 10 47 10 74-5v21c-28 19-51 19-76 9-24-10-43-9-67 3-24 11-48 12-73-1z" fill="#a9542f"/>
+  </g>
+  <g transform="rotate(13 411 228)">
+    <ellipse cx="398" cy="254" rx="105" ry="67" fill="#b47344"/>
+    <ellipse cx="398" cy="238" rx="105" ry="67" fill="#e8b675"/>
+    <ellipse cx="398" cy="220" rx="105" ry="67" fill="#f4d49d"/>
+    <path d="M302 232c21 13 43 14 65 5 24-10 43-10 65 0 22 9 43 8 63-4v19c-24 16-45 16-67 7-22-9-40-8-62 2-23 10-44 10-64-1z" fill="#a9542f"/>
+  </g>
+  <g fill="#fff8f0"><circle cx="213" cy="195" r="5"/><circle cx="251" cy="177" r="5"/><circle cx="303" cy="199" r="5"/><circle cx="375" cy="194" r="5"/><circle cx="424" cy="182" r="5"/></g>
+</svg>

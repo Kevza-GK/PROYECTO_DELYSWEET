@@ -1,0 +1,58 @@
+body {
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  font-family: var(--fuente-principal);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.125rem; }
+p { font-size: 1rem; }
+
+.skip-link {
+  position: absolute;
+  z-index: 1000;
+  top: -56px;
+  left: var(--espaciado-medio);
+  padding: var(--espaciado-pequeno) var(--espaciado-medio);
+  border-radius: var(--radio-borde);
+  color: var(--color-blanco);
+  background-color: var(--color-primario);
+}
+
+.skip-link:focus {
+  top: var(--espaciado-medio);
+}
+
+.enlace-texto {
+  color: var(--color-primario);
+  font-weight: 800;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.enlace-texto:hover {
+  color: var(--color-texto);
+}
+
+.seccion__eyebrow,
+.hero__eyebrow {
+  color: var(--color-primario);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.seccion__eyebrow { margin-bottom: var(--espaciado-pequeno); }
+.seccion__title { margin-bottom: var(--espaciado-pequeno); }
+.seccion__texto { margin-bottom: var(--espaciado-grande); }
+.seccion--estrecha { max-width: 680px; }
+.estado-vacio { padding: var(--espaciado-grande); text-align: center; }

@@ -1,0 +1,21 @@
+.tabla-wrapper { overflow-x: auto; margin-top: var(--espaciado-medio); border-radius: var(--radio-borde); }
+
+.tabla {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: var(--color-blanco);
+}
+
+.tabla__th,
+.tabla__td {
+  min-width: 85px;
+  padding: 12px;
+  border-bottom: 1px solid rgba(61, 44, 46, 0.1);
+  text-align: left;
+  vertical-align: middle;
+}
+
+.tabla__th { background-color: #fff0e4; font-weight: 800; }
+.tabla__acciones { display: flex; flex-wrap: wrap; align-items: center; gap: var(--espaciado-pequeno); }
+.tabla__acciones .btn { min-height: 38px; padding: 5px 12px; }
+.tabla__acciones .formulario__input { min-width: 160px; }

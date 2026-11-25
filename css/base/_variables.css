@@ -1,0 +1,19 @@
+:root {
+  --color-primario: #d94f70;
+  --color-secundario: #f7b267;
+  --color-fondo: #fff8f0;
+  --color-texto: #3d2c2e;
+  --color-blanco: #ffffff;
+  --color-exito: #2e7d32;
+  --color-error: #c62828;
+  --color-alerta: #ef6c00;
+  --color-rosa-claro: #fde7eb;
+  --fuente-principal: 'Nunito', sans-serif;
+  --espaciado-pequeno: 8px;
+  --espaciado-medio: 16px;
+  --espaciado-grande: 24px;
+  --radio-borde: 12px;
+  --sombra-suave: 0 8px 28px rgba(61, 44, 46, 0.1);
+  --transicion-rapida: 160ms ease;
+  --ancho-contenedor: 1120px;
+}

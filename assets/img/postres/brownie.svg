@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title">
+  <title id="title">Brownie de chocolate</title>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f7d8c6"/><stop offset="1" stop-color="#edb7a4"/></linearGradient></defs>
+  <rect width="640" height="440" fill="url(#bg)"/>
+  <ellipse cx="320" cy="336" rx="195" ry="38" fill="#fff8f0"/>
+  <path d="m176 298 38-172 244 44-35 177z" fill="#542f2b"/>
+  <path d="m214 126 36-32 245 45-37 31z" fill="#704239"/>
+  <path d="m214 126 244 44-35 45-219-42z" fill="#633832"/>
+  <path d="m204 218 219 42-10 50-220-39z" fill="#432522"/>
+  <path d="M244 119c-2-26 17-44 40-35 10-26 41-20 44 3 21-16 45 4 36 25" fill="#f3c7db"/>
+  <circle cx="271" cy="121" r="7" fill="#f2d293"/><circle cx="326" cy="132" r="7" fill="#f2d293"/><circle cx="383" cy="143" r="7" fill="#f2d293"/>
+  <path d="M424 101c16-28 35-8 26 9 22-10 33 11 15 22" fill="none" stroke="#fff8f0" stroke-linecap="round" stroke-width="9"/>
+  <circle cx="138" cy="141" r="9" fill="#fff" opacity=".7"/><circle cx="488" cy="286" r="7" fill="#fff" opacity=".7"/>
+</svg>

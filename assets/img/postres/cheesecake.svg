@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" role="img" aria-labelledby="title">
+  <title id="title">Cheesecake de fresa</title>
+  <defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#ffe9d7"/><stop offset="1" stop-color="#f8c9bd"/></linearGradient></defs>
+  <rect width="640" height="440" fill="url(#bg)"/>
+  <circle cx="320" cy="222" r="166" fill="#fffaf4"/>
+  <ellipse cx="320" cy="330" rx="142" ry="31" fill="#d2a27d"/>
+  <path d="M180 288h280l-24 54H204z" fill="#b8794e"/>
+  <path d="M190 238h260l-10 52H200z" fill="#f4d8a8"/>
+  <path d="M190 201h260v40H190z" fill="#fff1d2"/>
+  <path d="M192 194c28-35 48 13 78-14s54 23 84-3 53 22 96-3v33H190z" fill="#d94f70"/>
+  <g fill="#c73557"><path d="M274 161c-29-24-54 15-27 35l29 18 28-23c26-22-5-50-30-30Z"/><path d="M365 154c-25-21-46 13-23 30l25 16 24-20c22-19-4-43-26-26Z"/></g>
+  <g fill="#5c8b49"><path d="m272 165 12-24 8 27z"/><path d="m365 159 10-24 8 29z"/></g>
+  <circle cx="162" cy="128" r="8" fill="#fff" opacity=".8"/><circle cx="486" cy="157" r="12" fill="#fff" opacity=".6"/><circle cx="466" cy="97" r="6" fill="#fff" opacity=".8"/>
+</svg>

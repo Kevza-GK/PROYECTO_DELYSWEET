@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Mesa con postres artesanales</title>
+  <defs>
+    <linearGradient id="back" x2="0" y2="1"><stop stop-color="#f5d6c5"/><stop offset="1" stop-color="#c7876e"/></linearGradient>
+    <radialGradient id="cake"><stop stop-color="#fff3d8"/><stop offset="1" stop-color="#e7ae81"/></radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#back)"/>
+  <circle cx="1260" cy="170" r="250" fill="#fff4dd" opacity=".36"/>
+  <path d="M0 620c260-100 420-60 680 0s600 62 920-30v310H0z" fill="#835b4d" opacity=".48"/>
+  <ellipse cx="1120" cy="675" rx="360" ry="93" fill="#fff8f0"/>
+  <ellipse cx="1120" cy="654" rx="313" ry="70" fill="#e7d2c3"/>
+  <ellipse cx="1130" cy="625" rx="236" ry="172" fill="url(#cake)"/>
+  <path d="M902 608c36-60 78 24 126-37 43-55 82 32 126-31 45-63 95 33 147-21 25 25 43 64 48 102-50 67-99 37-142 83-44 49-85-27-132 29-52 60-87-21-137 18-39-29-65-77-68-143z" fill="#d94f70"/>
+  <g fill="#cb3656"><path d="M1017 520c-42-34-76 22-39 49l41 27 41-30c36-27-6-68-43-46Z"/><path d="M1184 493c-36-30-66 19-34 43l36 23 35-26c31-24-5-60-37-40Z"/><path d="M1300 560c-30-25-55 16-28 36l30 20 29-22c26-20-4-51-31-34Z"/></g>
+  <g fill="#5a8e4d"><path d="m1015 525 16-32 11 35z"/><path d="m1185 497 14-29 10 34z"/><path d="m1302 563 12-27 9 31z"/></g>
+  <rect x="124" y="180" width="250" height="250" rx="125" fill="#fff8f0" opacity=".18"/>
+  <circle cx="1390" cy="380" r="22" fill="#fff8f0" opacity=".55"/>
+  <circle cx="960" cy="230" r="13" fill="#fff8f0" opacity=".62"/>
+</svg>

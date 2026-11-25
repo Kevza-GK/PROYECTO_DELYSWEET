@@ -1,0 +1,16 @@
+.footer {
+  padding: var(--espaciado-grande) var(--espaciado-medio);
+  color: var(--color-blanco);
+  background-color: var(--color-texto);
+  text-align: center;
+}
+
+.footer__contenedor {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--espaciado-medio);
+  width: min(100%, var(--ancho-contenedor));
+  margin-inline: auto;
+}
+
+.footer__texto { font-size: 0.9rem; }
